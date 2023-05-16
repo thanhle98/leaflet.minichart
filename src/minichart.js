@@ -177,8 +177,8 @@
       }
       this._chart
         .attr("transform", "translate(" + (c.x - this.options.width / 2) + "," + (c.y - h / 2) + ")")
-        .transition()
-        .duration(this.options.transitionTime)
+        // .transition()
+        // .duration(this.options.transitionTime)
         .attr("opacity", this.options.opacity);
 
       // prepare data
